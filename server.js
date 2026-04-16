@@ -21,16 +21,4 @@ wss.on('connection', (ws) => {
 });
 
 const PORT = process.env.PORT || 8080;
-server.listen(PORT, () => console.log(`? ��ࢥ� �� ����� ${PORT}`));
-copy con package.json
-{
-  "name": "chat-server",
-  "version": "1.0.0",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "ws": "^8.14.2"
-  }
-}
+server.listen(PORT, () => console.log(`✅ Сервер чата запущен на порту ${PORT}`));
